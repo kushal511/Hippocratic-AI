@@ -446,15 +446,6 @@ Session Stats: 9 API calls | ~4,100 tokens | Est. cost: $0.0072
 
 All costs are estimates based on gpt-3.5-turbo pricing (~$0.0015/1K prompt, ~$0.002/1K completion).
 
----
-
-## What I Would Build Next (2 more hours)
-
-1. **Persistent Memory** — Vector-DB-backed storage of past stories and user preferences for personalized storytelling across sessions.
-2. **A/B Testing** — Empirically measure which technique produces higher Judge scores per category, then update the PromptRouter with real data.
-3. **Safety Classifier** — Pre-filter agent that screens inputs for inappropriate content with soft-redirect instead of hard-block.
-4. **Streaming Output** — Word-by-word display for a "being told a story" experience.
-5. **Voice Output** — Text-to-speech integration so the story can be read aloud.
 
 ---
 
